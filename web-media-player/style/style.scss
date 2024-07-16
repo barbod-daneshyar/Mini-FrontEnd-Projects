@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+}
+
+.video-container {
+    width: 600px;
+}
+
+.controls {
+    display: flex;
+    position: relative;
+    bottom: 45px;
+    width: 600px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.488);
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+    
+    .left {
+        display: flex;
+        .btn {
+            margin-left: 10px;
+        }
+    }
+
+    .center {
+        display: flex;
+        .btn {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .right {
+        display: flex;
+        .btn {
+            margin-right: 8px;
+            margin-left: 8px;
+        }
+    }
+}
+.btn {
+    cursor: pointer;
+}
+
+.progress{
+    width: 0;
+    height: 8px;
+    background-color: blue;
+    position: relative;
+    bottom: 53px;
+}

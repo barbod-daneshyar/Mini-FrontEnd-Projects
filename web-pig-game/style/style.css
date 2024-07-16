@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#gipGame {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+}
+#gipGame #content #board {
+  display: flex;
+}
+#gipGame #content #board #player-1 {
+  background-color: rgb(47, 255, 151);
+}
+#gipGame #content #board #player-2 {
+  background-color: rgb(47, 255, 151);
+}
+#gipGame #content #control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#gipGame #content #control .position {
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  flex-direction: column;
+}
+#gipGame #content #control .position #dice img {
+  background-color: white;
+  border: red 5px solid;
+  border-radius: 1rem;
+  width: 100px;
+  height: 100px;
+}
+#gipGame #content #control .position #dice {
+  margin: 2rem auto;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 1rem;
+}
+#gipGame #content #control .position #start-game {
+  margin: 7rem 0;
+}
+#gipGame #content #control .position #roll-dice {
+  margin: 2rem 0;
+}
+
+.playerBoard {
+  padding: 6rem;
+}
+
+.activePlayer {
+  background-color: green !important;
+}
+
+.Total-Score {
+  padding: 2rem 4rem 2rem 4rem;
+  background-color: white;
+  margin-bottom: 10rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.Current-Score {
+  padding: 2rem 4rem 2rem 4rem;
+  background-color: white;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.Current-Score h3 {
+  color: gray;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  font-weight: bold;
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.score {
+  font-size: 1.5rem;
+}
+
+.winner {
+  background: linear-gradient(yellow, red) !important;
+}/*# sourceMappingURL=style.css.map */

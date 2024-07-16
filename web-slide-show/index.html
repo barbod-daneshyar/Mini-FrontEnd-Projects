@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide-Show</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="img-container">
+        <div class="slide fade">
+            <div class="number">1/4</div>
+            <img src="./img/1.jpg" alt="img" width="100%" height="500px">
+            <div class="text">A sky full of clouds..</div>
+        </div>
+        <div class="slide fade">
+            <div class="number">2/4</div>
+            <img src="./img/2.jpg" alt="img" width="100%" height="500px">
+            <div class="text">Way to the Sun</div>
+        </div>
+        <div class="slide fade">
+            <div class="number">3/4</div>
+            <img src="./img/3.jpg" alt="img" width="100%" height="500px">
+            <div class="text">Wind Waves</div>
+        </div>
+        <div class="slide fade">
+            <div class="number">4/4</div>
+            <img src="./img/4.jpg" alt="img" width="100%" height="500px">
+            <div class="text">Quiet Mountain</div>
+        </div>
+
+        <span class="prev" onclick="controlSlides(-1)">&#10094</span>
+        <span class="next" onclick="controlSlides(1)">&#10095</span>
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="dotSlide(1)"></span>
+        <span class="dot" onclick="dotSlide(2)"></span>
+        <span class="dot" onclick="dotSlide(3)"></span>
+        <span class="dot" onclick="dotSlide(4)"></span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

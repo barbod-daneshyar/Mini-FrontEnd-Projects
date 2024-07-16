@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Game</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <section id="game">
+        <div id="all">
+
+            <div id="content">
+                <div id="selects">
+
+                    <div id="userSelection">
+                        <h2>Choose your weapon</h2>
+                        <div class="images">
+                            <img src="./img/paper.png" alt="paper" class="paper">
+                            <img src="./img/stone.png" alt="stone" class="stone">
+                            <img src="./img/scissor.png" alt="scissor" class="scissor">
+                        </div>
+                    </div>
+
+                    <div id="cpuSelection">
+                        <h3 class="hidden">CPU Choice :</h3>
+                        <div class="images">
+                            <img src="./img/paper.png" alt="paper" class="hidden paper">
+                            <img src="./img/stone.png" alt="stone" class="hidden stone">
+                            <img src="./img/scissor.png" alt="scissor" class="hidden scissor">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="points">
+                    <h2>points:</h2>
+                    <div id="userPoint">
+                        <label>USER:</label>
+                        <small>0</small>
+                    </div>
+                    <div id="cpuPoint">
+                        <label>CPU:</label>
+                        <small>0</small>
+                    </div>
+                </div>
+            </div>
+            <button id="refresh">
+                Refresh
+            </button>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

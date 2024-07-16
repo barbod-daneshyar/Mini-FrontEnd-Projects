@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: rgb(115,175,0);
+  background: linear-gradient(90deg, rgba(115,175,0,1) 0%, rgba(77,95,0,1) 100%);
+}
+
+section {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 20rem;
+  padding: 2rem;
+  background-color: #999;
+  border-radius: 2rem;
+  /* height: 10rem; */
+}/*# sourceMappingURL=style.css.map */
+
+input{
+  border: none;
+  border-radius: 2px;
+  padding: 3px;
+  width: 5rem;
+  outline: none;
+}
+
+button{
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+}
+.error{
+  color:black;
+  font-weight: bold;
+  padding-top: 2rem;
+}

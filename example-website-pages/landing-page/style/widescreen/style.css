@@ -1,0 +1,16 @@
+#section1 .content .items ul li {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+#section1 .content .items ul li i {
+  align-self: center;
+}
+#section1 .content .items ul li div {
+  margin-right: 1rem;
+}
+
+#section3 .content .items div img {
+  width: 20rem;
+  height: 20rem;
+}/*# sourceMappingURL=style.css.map */

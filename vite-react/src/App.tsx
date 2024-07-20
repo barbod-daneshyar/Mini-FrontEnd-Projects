@@ -6,7 +6,6 @@ import "./index.css";
 const App = () => {
   return <>
     {/* <Todo /> */}
-    {/* <Shoppage /> */}
     <HomePage />
     </>
 };

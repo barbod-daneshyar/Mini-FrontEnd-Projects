@@ -1,0 +1,56 @@
+@media screen and (max-width :500px) {
+    #navbar {
+        flex-direction: column;
+
+        ul {
+            margin: 1.25rem 0;
+            padding-top: .75rem;
+
+            li a{
+                padding: .5rem 1rem;
+            }
+        }
+    }
+
+    #section1 .content .items ul {
+        flex-direction: column;
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            i {
+                align-self: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 500px) {
+    
+    #section1 .content .items ul{
+        flex-direction: column;
+        li {
+            display: flex;
+            flex-direction: row-reverse;
+            text-align: right;
+            
+            i {
+                align-self: center;
+            }
+            
+            div {
+                margin-right: 1rem;
+            }
+        }
+    } 
+}
+
+#section2 {
+    .img {
+        display: none;
+    }
+}
+#contact {
+    padding: 1rem;
+}

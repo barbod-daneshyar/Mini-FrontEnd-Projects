@@ -1,0 +1,114 @@
+.c-nav-toggler {
+  border: none;
+}
+
+.c-col2-home {
+  background: #fef7e5;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 30px 40px 30px 60px;
+}
+.c-col2-home .c-title-home {
+  color: #e2781a;
+  font-style: normal;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 0;
+}
+.c-col2-home .c-text-home {
+  font-style: italic;
+  font-size: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  width: 80%;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+.c-col2-home .c-button-home {
+  background-color: #e2781a;
+  letter-spacing: 3px;
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 45px auto 0 0;
+  padding: 15px 54px;
+  color: white;
+}
+.c-col2-home .c-small-home {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin: 30px 0 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.c-service {
+  background-color: #f3dfca;
+  transition: all 1s;
+}
+.c-service .c-picture-service {
+  min-height: 462px;
+  background: no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/f0435054ecb55185b4febf25/fgfg-min.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: auto;
+  margin: 0 auto 0 0;
+}
+.c-service .c-small-service {
+  font-style: italic;
+  margin: 35px auto -21px;
+  word-wrap: break-word;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: block;
+}
+.c-service .c-title-service {
+  color: white;
+  width: 615px;
+  font-size: 3.75rem;
+  margin: 0 auto;
+  position: relative;
+  font-weight: 700;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  display: block;
+  padding: 0.83em;
+  -webkit-padding-after: 0.83em;
+          padding-block-end: 0.83em;
+  padding-top: 5rem;
+}
+.c-service .c-margin-service {
+  position: relative;
+  bottom: 200px;
+}
+.c-service .c-card-service {
+  width: 100px;
+  height: 100px;
+  background-color: #e2781a;
+  padding: 1.2rem;
+  margin: 0 auto;
+}
+.c-service .c-more-btn {
+  text-decoration: none;
+  border-bottom: 1px solid #e2781a;
+  margin-bottom: 5px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  color: #e2781a;
+}
+
+.c-w-card {
+  min-width: 200px;
+}/*# sourceMappingURL=test.css.map */

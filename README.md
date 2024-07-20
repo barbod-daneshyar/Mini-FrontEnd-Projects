@@ -30,4 +30,15 @@ Some mini projects have been created with technologies: HTML ,CSS ,JS ,TSX ,Boot
 
 ![Screenshot (220)](https://github.com/user-attachments/assets/9a21b074-5ae8-4e93-ac6a-b58558551ebe)
 
+### A few examples of website pages (Bootstrap)
+![Screenshot (230)](https://github.com/user-attachments/assets/33173167-d267-4a0d-95a7-e4a6b5f02451)
+![Screenshot (229)](https://github.com/user-attachments/assets/df103f54-203f-4388-a277-4a1616986839)
+.
+![Screenshot (232)](https://github.com/user-attachments/assets/8d84b4be-1076-41cb-8040-df9878268a96)
+![Screenshot (231)](https://github.com/user-attachments/assets/c231cd97-3fd3-4054-a16c-d6e29d8e9821)
+.
+![Screenshot (228)](https://github.com/user-attachments/assets/94fdce91-ae4e-452c-bc01-f79421e5862d)
+![Screenshot (227)](https://github.com/user-attachments/assets/659147cf-c583-4784-a40f-d2cddf57574e)
+
+
 

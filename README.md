@@ -7,15 +7,6 @@ Some mini projects have been created with technologies: HTML ,CSS ,JS ,TSX ,Boot
 ### Stone Paper Scissor Game: compete with Computer!
 ![Screenshot (203)](https://github.com/user-attachments/assets/1ee6d586-4561-4581-8934-62b02171b598)
 
-### Slide Show: an example of a slide show
-![Screenshot (205)](https://github.com/user-attachments/assets/44ca35bd-2ce6-41e7-941c-5b61cdacb0dd)
-
-### Media Player: an example of a media player
-![Screenshot (211)](https://github.com/user-attachments/assets/c97c158b-2cb7-4c38-86d9-ad57653e0433)
-
-### Guess Number
-![Screenshot (212)](https://github.com/user-attachments/assets/ba2e381f-d402-46c4-8fdd-e5f266e6ca29)
-
 ### Pig Game (Role Dice): an entertaining game (learn the game from https://en.wikipedia.org/wiki/Pig_(dice_game))
 ![Screenshot (208)](https://github.com/user-attachments/assets/578c18f5-6577-4df1-9bc3-e040135249c6)
 
